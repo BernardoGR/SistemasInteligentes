@@ -1,8 +1,2 @@
-import fileinput
-
-result = 0
-
-for line in fileinput.input():
-    result += int(line)
-
-print(result)
+#!/bin/sh
+python3 program.py
